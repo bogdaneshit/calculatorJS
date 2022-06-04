@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <main class="main">
+            <div class="calculator">
+                <div class="container">
+                    <div class="calculator__title">
+                        <h2>Calculator</h2>
+                    </div>
+                    <div class="calculator__block">
+                        <div class="calculator__usernum_1">
+                            <input type="text" placeholder=" Enter a first number" id="first_num">
+                        </div>
+                        
+                        <div class="calculator__usernum_2">
+                            <input type="text" placeholder=" Enter a second number" id="secon_num">
+                        </div>
+                        <div class="calculator__result">
+                            <p class="result" id="result">
+                                0
+                            </p>
+                        </div>
+                        <div class="calculator__button_block">
+                            <button onclick="plus()" class="button__plus">+</button>
+                            <button onclick="minus()" class="button__minus">-</button>
+                            <button onclick="multiple()" class="button__multiple">*</button>
+                            <button onclick="divide()" class="button__divide">/</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
